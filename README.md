@@ -11,7 +11,6 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-<<<<<<< HEAD
 - [X] HTML base.
 - [X] CSS base.
 - [X] Cadastro: Nome, Notas e turma.
