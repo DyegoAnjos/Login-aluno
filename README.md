@@ -11,6 +11,7 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
+<<<<<<< HEAD
 - [X] HTML base.
 - [X] CSS base.
 - [X] Cadastro: Nome, Notas e turma.
@@ -22,3 +23,10 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Foto.
 - [ ] Retorno em tabela.
 
+=======
+- [ ] HTML e CSS base.
+- [ ] Cadastro: Nome, Notas e turma.
+- [ ] Retorno média.
+- [ ] Foto.
+- [ ] Separação por matérias.
+>>>>>>> 246d35bcab084b6de05b43f56abaa641afb184e7
