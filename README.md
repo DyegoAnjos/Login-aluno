@@ -22,11 +22,3 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 ### Super Metas 
 - [ ] Foto.
 - [ ] Retorno em tabela.
-
-=======
-- [ ] HTML e CSS base.
-- [ ] Cadastro: Nome, Notas e turma.
-- [ ] Retorno média.
-- [ ] Foto.
-- [ ] Separação por matérias.
->>>>>>> 246d35bcab084b6de05b43f56abaa641afb184e7
