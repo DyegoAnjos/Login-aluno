@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Escola.com</title>
+</head>
+<body>
+    <main>
+        <form  method="post" id="form">
+            <h1>Calculadora de notas</h1>
+            <div class="cadastro">
+                <label>
+                    <input type="text" name="NomeAluno" id="nome" placeholder="Nome do aluno">
+                </label>
+                <label>
+                    <input type="text" name="Turma" id="turma" placeholder="Digite a Turma">
+                </label>
+            </div>
+            <label>
+                <input type="number" name="Nota1" id="nota1" placeholder="Nota do primeiro trimestre">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <i class="fa-solid fa-circle-check"></i>
+            </label>
+            <label>
+                <input type="number" name="Nota2" id="nota2" placeholder="Nota do segundo trimestre">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <i class="fa-solid fa-circle-check"></i>
+            </label>
+            <label>
+                <input type="number" name="Nota3" id="nota3" placeholder="Nota do terceiro trimestre">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <i class="fa-solid fa-circle-check"></i>
+            </label>
+            <select name="Materia" id="materia">
+                <option value="Matematica" id="Mat">Matemática</option>
+                <option value="Portugues" id="Port">Português</option>
+                <option value="Historia" id="His">História</option>
+                <option value="Biologia" id="Bio">Biologia</option>
+                <option value="Quimica" id="Quim">Química</option>
+                <option value="Fisica" id="Fis">Física</option>
+            </select>
+            <input type="submit" value="Enviar">
+            <p id="retorno"></p>
+        </form>
+    </main>
+    <script src="https://kit.fontawesome.com/2d311d7657.js" crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
