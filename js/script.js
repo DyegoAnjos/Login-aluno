@@ -14,26 +14,33 @@ form.addEventListener("submit", (e) =>{
     var nota2Valor = nota2.value
     var nota3Valor = nota3.value
 
-    if (validarInpus(nomeValor,turmaValor,nota1Valor,nota2Valor,nota3Valor) == true)
+    if (validarInpus(nomeValor,turmaValor,nota1Valor,nota2Valor,nota3Valor) != false)
         calcMedia(nomeValor,nota1Valor,nota2Valor,nota3Valor)
 })
 
 function validarInpus(nome,turma,nota1,nota2,nota3){
-    if (nome === '')
+    if (nome === ''){
         alert("Nome vazio")
+        return false 
+    }
+        
 
-    else if (turma === '')
+    else if (turma === ''){
         alert("Á campos vazios")
+        return false 
+    }
+        
     
     else if (nota1 === '' || nota2 === '' || nota3 === ''){
         alert("Nota vazia")
+        return false 
     }
-       
-    else
-        return true
 
-    if (nota1 < 0 || nota1 > 10 || nota2 < 0 || nota2 > 10 || nota3 < 0 || nota3 > 10)
+    if (nota1 < 0 || nota1 > 10 || nota2 < 0 || nota2 > 10 || nota3 < 0 || nota3 > 10){
         alert("Apenas valores entre 0 e 10")
+        return false 
+    }
+        
     else
         return true
 }

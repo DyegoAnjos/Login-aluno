@@ -127,3 +127,37 @@ i{
 .mostra{
     visibility: visible;
 }
+
+@media (max-width: 1040px){
+
+    h1{
+        text-align: center;
+    }
+
+    .cadastro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        
+    }
+
+    .cadastro label{
+        width: 50%;
+    }
+}
+
+@media (max-width: 720px){
+    main{
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+    }
+
+    form{
+        width: 100%;
+        height: 100%;
+    }
+
+}

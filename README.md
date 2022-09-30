@@ -14,8 +14,8 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [X] HTML base.
 - [X] CSS base.
 - [X] Cadastro: Nome, Notas e turma.
-- [ ] Retorno média.
-- [ ] Responsivo.
+- [X] Retorno média.
+- [X] Responsivo.
 - [ ] Separação por matérias.
 
 ### Super Metas 
