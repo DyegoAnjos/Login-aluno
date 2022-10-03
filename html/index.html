@@ -9,16 +9,23 @@
 </head>
 <body>
     <main>
-        <form  method="post" id="form">
-            <h1>Calculadora de notas</h1>
+        <form method="post" id="formLogin" class="form-entrar">
+            <h1>Login</h1>
             <div class="cadastro">
                 <label>
-                    <input type="text" name="NomeAluno" id="nome" placeholder="Nome do aluno">
+                    <input type="text" name="NomeAluno" id="matricula" placeholder="Matricula">
                 </label>
                 <label>
-                    <input type="text" name="Turma" id="turma" placeholder="Digite a Turma">
+                    <input type="password" name="Senha" id="senha" placeholder="Senha">
                 </label>
             </div>
+            <label>
+                <input type="text" name="Turma" id="turma" placeholder="Digite a Turma">
+            </label>
+            <input type="submit" value="Enviar">
+        </form>
+        <form  method="post" id="formNota">
+            <h1>Calculadora de notas</h1>
             <label>
                 <input type="number" name="Nota1" id="nota1" placeholder="Nota do primeiro trimestre">
                     <i class="fa-solid fa-circle-exclamation"></i>
