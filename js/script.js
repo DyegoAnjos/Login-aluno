@@ -17,8 +17,6 @@ formLogin.addEventListener("submit", (e) =>{
     }
 })
 
-formLogin.addEventListener("")
-
 function validarLogin(matricula,turma){
     if (matricula === ''){
         alert("Matricula vazia")
@@ -30,6 +28,11 @@ function validarLogin(matricula,turma){
         return false 
     }
 }
+
+formNotas.addEventListener("animationstart", (e) =>{
+    if(e.animationName === "form-entrar")
+        formNotas.style.display = "flex"
+})
 
 
 // formNotas.addEventListener("submit", (e) =>{
